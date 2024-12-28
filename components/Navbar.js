@@ -54,7 +54,7 @@ const Navbar = () => {
       />
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"}><div className="text-lg font-bold">
-                    HarryBlog
+                    AqsaBlog
                 </div></Link>
                 <div className="hidden md:flex space-x-4 items-center">
                     <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300"> Home
@@ -64,9 +64,6 @@ const Navbar = () => {
                     </Link>
                     <Link href="/blog" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
                         Blog
-                    </Link>
-                    <Link href="/contact" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
-                        Contact
                     </Link>
                     <div className='flex items-center'>
                         <Button className="mx-1" variant="outline">Login</Button>
@@ -87,7 +84,7 @@ const Navbar = () => {
                         </SheetTrigger>
                         <SheetContent>
                             <SheetHeader>
-                                <SheetTitle className="font-bold my-4">HarryBlog</SheetTitle>
+                                <SheetTitle className="font-bold my-4">AqsaBlog</SheetTitle>
                                 <SheetDescription>
                                     <div className="flex flex-col gap-6">
                                         <Link href="/"> Home

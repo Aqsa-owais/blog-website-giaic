@@ -33,6 +33,7 @@
     "rehype-stringify": "^10.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.0",
+    "shadcn": "^2.1.8",
     "shiki": "^1.16.1",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
